@@ -1,0 +1,201 @@
+========================================
+TESTING WITH 2^10 = 1024 elements
+========================================
+Expected accurate sum: 51.2000000512    
+
+Method: Standard double      Sum: 51.20000005120137 Diff:  1.371e-12 Relative Diff:  2.678e-14 Runtime: 0.000003
+Method: Pairwise sum         Sum: 51.2000000512     Diff:          0 Relative Diff:          0 Runtime: 0.000014
+Method: Kahan sum            Sum: 51.2000000512     Diff:          0 Relative Diff:          0 Runtime: 0.000010
+Method: Knuth sum            Sum: 51.2000000512     Diff:          0 Relative Diff:          0 Runtime: 0.000011
+Method: Long double sum      Sum: 51.2000000512000035   Diff:  3.553e-15 Relative Diff:  6.939e-17 Runtime: 0.000005
+
+========================================
+TESTING WITH 2^11 = 2048 elements
+========================================
+Expected accurate sum: 102.4000001024   
+
+Method: Standard double      Sum: 102.4000001024003 Diff:  2.842e-13 Relative Diff:  2.776e-15 Runtime: 0.000006
+Method: Pairwise sum         Sum: 102.4000001024    Diff:          0 Relative Diff:          0 Runtime: 0.000026
+Method: Kahan sum            Sum: 102.4000001024    Diff:          0 Relative Diff:          0 Runtime: 0.000020
+Method: Knuth sum            Sum: 102.4000001024    Diff:          0 Relative Diff:          0 Runtime: 0.000020
+Method: Long double sum      Sum: 102.400000102400007   Diff:  7.105e-15 Relative Diff:  6.939e-17 Runtime: 0.000010
+
+========================================
+TESTING WITH 2^12 = 4096 elements
+========================================
+Expected accurate sum: 204.8000002048   
+
+Method: Standard double      Sum: 204.8000002047672 Diff:  -3.28e-11 Relative Diff: -1.601e-13 Runtime: 0.000012
+Method: Pairwise sum         Sum: 204.8000002048    Diff:          0 Relative Diff:          0 Runtime: 0.000052
+Method: Kahan sum            Sum: 204.8000002048    Diff:          0 Relative Diff:          0 Runtime: 0.000040
+Method: Knuth sum            Sum: 204.8000002048    Diff:          0 Relative Diff:          0 Runtime: 0.000040
+Method: Long double sum      Sum: 204.8000002048        Diff:          0 Relative Diff:          0 Runtime: 0.000024
+
+========================================
+TESTING WITH 2^13 = 8192 elements
+========================================
+Expected accurate sum: 409.6000004096   
+
+Method: Standard double      Sum: 409.6000004095737 Diff: -2.626e-11 Relative Diff: -6.412e-14 Runtime: 0.000025
+Method: Pairwise sum         Sum: 409.6000004096    Diff:          0 Relative Diff:          0 Runtime: 0.000118
+Method: Kahan sum            Sum: 409.6000004096    Diff:          0 Relative Diff:          0 Runtime: 0.000082
+Method: Knuth sum            Sum: 409.6000004096    Diff:          0 Relative Diff:          0 Runtime: 0.000080
+Method: Long double sum      Sum: 409.600000409600057   Diff:  5.684e-14 Relative Diff:  1.388e-16 Runtime: 0.000047
+
+========================================
+TESTING WITH 2^14 = 16384 elements
+========================================
+Expected accurate sum: 819.2000008192   
+
+Method: Standard double      Sum: 819.2000008196816 Diff:  4.816e-10 Relative Diff:  5.879e-13 Runtime: 0.000052
+Method: Pairwise sum         Sum: 819.2000008192    Diff:          0 Relative Diff:          0 Runtime: 0.000238
+Method: Kahan sum            Sum: 819.2000008192    Diff:          0 Relative Diff:          0 Runtime: 0.000163
+Method: Knuth sum            Sum: 819.2000008192    Diff:          0 Relative Diff:          0 Runtime: 0.000166
+Method: Long double sum      Sum: 819.200000819200028   Diff:  2.842e-14 Relative Diff:  3.469e-17 Runtime: 0.000096
+
+========================================
+TESTING WITH 2^15 = 32768 elements
+========================================
+Expected accurate sum: 1638.4000016384  
+
+Method: Standard double      Sum: 1638.400001638733 Diff:  3.331e-10 Relative Diff:  2.033e-13 Runtime: 0.000106
+Method: Pairwise sum         Sum: 1638.4000016384   Diff:          0 Relative Diff:          0 Runtime: 0.000476
+Method: Kahan sum            Sum: 1638.4000016384   Diff:          0 Relative Diff:          0 Runtime: 0.000348
+Method: Knuth sum            Sum: 1638.4000016384   Diff:          0 Relative Diff:          0 Runtime: 0.000329
+Method: Long double sum      Sum: 1638.40000163839991   Diff: -8.527e-14 Relative Diff: -5.204e-17 Runtime: 0.000193
+
+========================================
+TESTING WITH 2^16 = 65536 elements
+========================================
+Expected accurate sum: 3276.8000032768  
+
+Method: Standard double      Sum: 3276.800003276371 Diff: -4.293e-10 Relative Diff:  -1.31e-13 Runtime: 0.000217
+Method: Pairwise sum         Sum: 3276.8000032768   Diff:          0 Relative Diff:          0 Runtime: 0.001135
+Method: Kahan sum            Sum: 3276.8000032768   Diff:          0 Relative Diff:          0 Runtime: 0.000766
+Method: Knuth sum            Sum: 3276.8000032768   Diff:          0 Relative Diff:          0 Runtime: 0.000795
+Method: Long double sum      Sum: 3276.80000327680105   Diff:  1.052e-12 Relative Diff:  3.209e-16 Runtime: 0.000405
+
+========================================
+TESTING WITH 2^17 = 131072 elements
+========================================
+Expected accurate sum: 6553.6000065536  
+
+Method: Standard double      Sum: 6553.600006562821 Diff:  9.221e-09 Relative Diff:  1.407e-12 Runtime: 0.000457
+Method: Pairwise sum         Sum: 6553.6000065536   Diff:          0 Relative Diff:          0 Runtime: 0.002288
+Method: Kahan sum            Sum: 6553.6000065536   Diff:          0 Relative Diff:          0 Runtime: 0.001485
+Method: Knuth sum            Sum: 6553.6000065536   Diff:          0 Relative Diff:          0 Runtime: 0.001336
+Method: Long double sum      Sum: 6553.60000655360423   Diff:  4.235e-12 Relative Diff:  6.462e-16 Runtime: 0.000686
+
+========================================
+TESTING WITH 2^18 = 262144 elements
+========================================
+Expected accurate sum: 13107.2000131072 
+
+Method: Standard double      Sum: 13107.20001314317 Diff:  3.597e-08 Relative Diff:  2.745e-12 Runtime: 0.000876
+Method: Pairwise sum         Sum: 13107.2000131072  Diff:          0 Relative Diff:          0 Runtime: 0.003602
+Method: Kahan sum            Sum: 13107.2000131072  Diff:          0 Relative Diff:          0 Runtime: 0.002792
+Method: Knuth sum            Sum: 13107.2000131072  Diff:          0 Relative Diff:          0 Runtime: 0.002771
+Method: Long double sum      Sum: 13107.2000131071888   Diff: -1.123e-11 Relative Diff: -8.565e-16 Runtime: 0.001418
+
+========================================
+TESTING WITH 2^19 = 524288 elements
+========================================
+Expected accurate sum: 26214.4000262144 
+
+Method: Standard double      Sum: 26214.40002564823 Diff: -5.662e-07 Relative Diff:  -2.16e-11 Runtime: 0.002097
+Method: Pairwise sum         Sum: 26214.4000262144  Diff:          0 Relative Diff:          0 Runtime: 0.006264
+Method: Kahan sum            Sum: 26214.4000262144  Diff:          0 Relative Diff:          0 Runtime: 0.005181
+Method: Knuth sum            Sum: 26214.4000262144  Diff:          0 Relative Diff:          0 Runtime: 0.005142
+Method: Long double sum      Sum: 26214.4000262143433   Diff:  -5.67e-11 Relative Diff: -2.163e-15 Runtime: 0.002976
+
+========================================
+TESTING WITH 2^20 = 1048576 elements
+========================================
+Expected accurate sum: 52428.8000524288 
+
+Method: Standard double      Sum: 52428.80005292332 Diff:  4.945e-07 Relative Diff:  9.432e-12 Runtime: 0.003560
+Method: Pairwise sum         Sum: 52428.8000524288  Diff:          0 Relative Diff:          0 Runtime: 0.012601
+Method: Kahan sum            Sum: 52428.8000524288  Diff:          0 Relative Diff:          0 Runtime: 0.010840
+Method: Knuth sum            Sum: 52428.8000524288  Diff:          0 Relative Diff:          0 Runtime: 0.010444
+Method: Long double sum      Sum: 52428.8000524280702   Diff: -7.297e-10 Relative Diff: -1.392e-14 Runtime: 0.005405
+
+========================================
+TESTING WITH 2^21 = 2097152 elements
+========================================
+Expected accurate sum: 104857.6001048576
+
+Method: Standard double      Sum: 104857.6001084272 Diff:   3.57e-06 Relative Diff:  3.404e-11 Runtime: 0.007510
+Method: Pairwise sum         Sum: 104857.6001048576 Diff:          0 Relative Diff:          0 Runtime: 0.025676
+Method: Kahan sum            Sum: 104857.6001048576 Diff:          0 Relative Diff:          0 Runtime: 0.020579
+Method: Knuth sum            Sum: 104857.6001048576 Diff:          0 Relative Diff:          0 Runtime: 0.020942
+Method: Long double sum      Sum: 104857.600104860414   Diff:  2.814e-09 Relative Diff:  2.683e-14 Runtime: 0.010377
+
+========================================
+TESTING WITH 2^22 = 4194304 elements
+========================================
+Expected accurate sum: 209715.2002097152
+
+Method: Standard double      Sum: 209715.2001908246 Diff: -1.889e-05 Relative Diff: -9.008e-11 Runtime: 0.015237
+Method: Pairwise sum         Sum: 209715.2002097152 Diff:          0 Relative Diff:          0 Runtime: 0.050244
+Method: Kahan sum            Sum: 209715.2002097152 Diff:          0 Relative Diff:          0 Runtime: 0.042255
+Method: Knuth sum            Sum: 209715.2002097152 Diff:          0 Relative Diff:          0 Runtime: 0.041964
+Method: Long double sum      Sum: 209715.200209715787   Diff:  5.872e-10 Relative Diff:    2.8e-15 Runtime: 0.023059
+
+========================================
+TESTING WITH 2^23 = 8388608 elements
+========================================
+Expected accurate sum: 419430.4004194304
+
+Method: Standard double      Sum: 419430.400462431  Diff:    4.3e-05 Relative Diff:  1.025e-10 Runtime: 0.028770
+Method: Pairwise sum         Sum: 419430.4004194304 Diff:          0 Relative Diff:          0 Runtime: 0.098999
+Method: Kahan sum            Sum: 419430.4004194304 Diff:          0 Relative Diff:          0 Runtime: 0.080460
+Method: Knuth sum            Sum: 419430.4004194304 Diff:          0 Relative Diff:          0 Runtime: 0.081155
+Method: Long double sum      Sum: 419430.400419363204   Diff:  -6.72e-08 Relative Diff: -1.602e-13 Runtime: 0.037453
+
+========================================
+TESTING WITH 2^24 = 16777216 elements
+========================================
+Expected accurate sum: 838860.8008388608
+
+Method: Standard double      Sum: 838860.800853056  Diff:   1.42e-05 Relative Diff:  1.692e-11 Runtime: 0.056648
+Method: Pairwise sum         Sum: 838860.8008388608 Diff:          0 Relative Diff:          0 Runtime: 0.185715
+Method: Kahan sum            Sum: 838860.8008388608 Diff:          0 Relative Diff:          0 Runtime: 0.159133
+Method: Knuth sum            Sum: 838860.8008388608 Diff:          0 Relative Diff:          0 Runtime: 0.160216
+Method: Long double sum      Sum: 838860.80083880705    Diff: -5.375e-08 Relative Diff: -6.407e-14 Runtime: 0.080520
+
+========================================
+TESTING WITH 2^25 = 33554432 elements
+========================================
+Expected accurate sum: 1677721.601677722
+
+Method: Standard double      Sum: 1677721.600413603 Diff:  -0.001264 Relative Diff: -7.535e-10 Runtime: 0.109127
+Method: Pairwise sum         Sum: 1677721.601677722 Diff:          0 Relative Diff:          0 Runtime: 0.352268
+Method: Kahan sum            Sum: 1677721.601677722 Diff:          0 Relative Diff:          0 Runtime: 0.318058
+Method: Knuth sum            Sum: 1677721.601677722 Diff:          0 Relative Diff:          0 Runtime: 0.317968
+Method: Long double sum      Sum: 1677721.60167870802   Diff:  9.864e-07 Relative Diff:   5.88e-13 Runtime: 0.178939
+
+========================================
+TESTING WITH 2^26 = 67108864 elements
+========================================
+Expected accurate sum: 3355443.203355443
+
+Method: Standard double      Sum: 3355443.201976103 Diff:  -0.001379 Relative Diff: -4.111e-10 Runtime: 0.212636
+Method: Pairwise sum         Sum: 3355443.203355443 Diff:          0 Relative Diff:          0 Runtime: 0.704766
+Method: Kahan sum            Sum: 3355443.203355443 Diff:          0 Relative Diff:          0 Runtime: 0.631423
+Method: Knuth sum            Sum: 3355443.203355443 Diff:          0 Relative Diff:          0 Runtime: 0.631722
+Method: Long double sum      Sum: 3355443.20335612578   Diff:  6.826e-07 Relative Diff:  2.034e-13 Runtime: 0.274438
+
+========================================
+TESTING WITH 2^27 = 134217728 elements
+========================================
+Expected accurate sum: 6710886.406710886
+
+Method: Standard double      Sum: 6710886.393382353 Diff:   -0.01333 Relative Diff: -1.986e-09 Runtime: 0.419154
+Method: Pairwise sum         Sum: 6710886.406710886 Diff:          0 Relative Diff:          0 Runtime: 1.403809
+Method: Kahan sum            Sum: 6710886.406710886 Diff:          0 Relative Diff:          0 Runtime: 1.261623
+Method: Knuth sum            Sum: 6710886.406710886 Diff:          0 Relative Diff:          0 Runtime: 1.260410
+Method: Long double sum      Sum: 6710886.40671000761   Diff: -8.788e-07 Relative Diff: -1.309e-13 Runtime: 0.532427
+
+========================================
+All tests complete!
+========================================

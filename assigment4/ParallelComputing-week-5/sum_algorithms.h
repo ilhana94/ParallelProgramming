@@ -1,0 +1,14 @@
+//
+// Created by Adnan Hajro on 29. 10. 2025..
+//
+
+#ifndef SUM_ALGORITHMS_H
+#define SUM_ALGORITHMS_H
+
+double do_sum(double* restrict var, long ncells);
+double do_pairwise_sum(double* restrict var, long ncells);
+double do_kahan_sum(double* restrict var, long ncells);
+double do_knuth_sum(double* restrict var, long ncells);
+long double do_long_double_sum(double* restrict var, long ncells);
+
+#endif 
