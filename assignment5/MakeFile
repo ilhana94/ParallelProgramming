@@ -1,0 +1,23 @@
+
+CC=gcc
+CFLAGS=-g -O3 -fstrict-aliasing -ftree-vectorize -fopenmp-simd \
+       -march=native -mtune=native -mprefer-vector-width=256 \
+       -fopt-info-vec-optimized -fopt-info-vec-missed \
+       -fno-trapping-math -fno-math-errno
+
+stream_triad: main.o timestep.o timer.o
+	$(CC) $(CFLAGS) -o $@ $^ -lm
+
+main.o: main.c timestep.h timer.h
+	$(CC) $(CFLAGS) -c main.c -o main.o
+
+timestep.o: timestep.c timestep.h
+	$(CC) $(CFLAGS) -c timestep.c -o timestep.o
+
+timer.o: timer.c timer.h
+	$(CC) $(CFLAGS) -c timer.c -o timer.o
+
+clean:
+	rm -rf ./stream_triad ./main.o ./timestep.o ./timer.o
+
+
